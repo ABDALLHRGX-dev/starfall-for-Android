@@ -1,0 +1,18 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.0",
+  "Category": "Module",
+  "Description": "Starfall library for Unreal Engine, depends on Core, Engine, HTTP modules.",
+  "Modules": [
+    {
+      "Name": "Starfall",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "AdditionalDependencies": [
+        "Core",
+        "Engine",
+        "HTTP"
+      ]
+    }
+  ]
+}
