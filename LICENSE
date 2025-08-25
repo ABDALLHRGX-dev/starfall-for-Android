@@ -1,0 +1,50 @@
+LICENSE — Starfall for Android (Custom License)
+
+Copyright (c) ABDALLHRGX-dev, plooshi
+
+Permission is granted to use, modify, and build this project under the following conditions:
+
+1. **Original Project Reference**
+
+   * The original project, **Starfall**, was created for Windows by **plooshi**:
+
+     * Original repository: [https://github.com/plooshi/Starfall](https://github.com/plooshi/Starfall)
+     * plooshi's profile: [https://github.com/plooshi](https://github.com/plooshi)
+   * This project was **restructured and rewritten** entirely for **Android** by **ABDALLHRGX-dev**:
+
+     * Starfall for Android: [https://github.com/ABDALLHRGX-dev/Starfall-for-Android](https://github.com/ABDALLHRGX-dev/Starfall-for-Android)
+
+2. **Attribution Requirement**
+
+   * You must credit **both** authors when using this library:
+
+     * **plooshi** (original Windows version author)
+     * **ABDALLHRGX-dev** (developer of the Android version)
+   * Example attribution: "Based on Starfall (original by plooshi) and restructured/rewritten for Android by ABDALLHRGX-dev."
+
+3. **Publishing Restrictions**
+
+   * You **may not** publish the source code or the compiled library (binary) publicly unless:
+
+     * It is built with the **same Unreal Engine version** specified in this repository.
+     * The **same backend configuration** used in this project is maintained.
+
+4. **Closed-Source Public Projects**
+
+   * Using this library in public closed-source projects is strictly prohibited unless explicit permission is granted by **ABDALLHRGX-dev**.
+
+5. **Credit to Original Author**
+
+   * Even though the Android version was completely rewritten, attribution to **plooshi** remains **mandatory** as recognition of the original concept and design.
+
+6. **Liability**
+
+   * This software is provided "AS IS" without warranty of any kind. The authors are not liable for any damages or misuse of the library.
+
+---
+
+For permissions or inquiries, contact:
+
+* **ABDALLHRGX-dev**: [https://github.com/ABDALLHRGX-dev](https://github.com/ABDALLHRGX-dev)
+* Discord: abdallhgxr
+* X / Twitter: [https://x.com/THEFOUNDATASAS](https://x.com/THEFOUNDATASAS)
