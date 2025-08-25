@@ -1,22 +1,81 @@
 LICENSE — Starfall for Android (Custom License)
+Version 1.0 — August 25, 2025
 
-Copyright (c) ABDALLHRGX-dev, plooshi
+Copyright (c) 2024–2025 ABDALLHRGX-dev, plooshi
 
-Permission is granted to use, modify, and build this project under the following conditions:
+Permission granted:
+-------------------
+Subject to the conditions below, permission is granted to any person obtaining a copy
+of this software and associated documentation files (the "Software") to use, copy,
+modify, and build the Software for their own purposes.
 
-1. **Original Project Reference**
+Conditions:
+-----------
+1. Original Project Reference
+   - The original project "Starfall" was created for Windows by plooshi.
+     - Original repository: https://github.com/plooshi/Starfall
+     - Author: https://github.com/plooshi
+   - This repository ("Starfall for Android") is a restructured and rewritten port for
+     Android by ABDALLHRGX-dev.
+     - Android repo: https://github.com/ABDALLHRGX-dev/Starfall-for-Android
 
-   * The original project, **Starfall**, was created for Windows by **plooshi**:
+2. Attribution Requirement
+   - Any distribution, public demonstration, or published work that uses this Software
+     must attribute both authors:
+       * plooshi — original Windows version author
+       * ABDALLHRGX-dev — Android port author
+   - Example attribution text (recommended):
+     "Based on Starfall (original by plooshi) — restructured and rewritten for Android by ABDALLHRGX-dev."
 
-     * Original repository: [https://github.com/plooshi/Starfall](https://github.com/plooshi/Starfall)
-     * plooshi's profile: [https://github.com/plooshi](https://github.com/plooshi)
-   * This project was **restructured and rewritten** entirely for **Android** by **ABDALLHRGX-dev**:
+3. Publishing & Redistribution Restrictions
+   - You MAY NOT publish this repository's source code or compiled binaries publicly
+     unless BOTH of the following are true:
+       a) The build uses the same Unreal Engine version specified in this repository.
+       b) The same backend configuration (as provided or documented here) is preserved.
+   - Private/internal redistribution (within an organization or between known parties)
+     is permitted provided attribution is preserved and the above build requirements
+     are followed.
 
-     * Starfall for Android: [https://github.com/ABDALLHRGX-dev/Starfall-for-Android](https://github.com/ABDALLHRGX-dev/Starfall-for-Android)
+4. Closed-Source Public Projects
+   - Using this Software in a public closed-source project (i.e., distributing a
+     proprietary product which includes the Software) is prohibited without explicit,
+     written permission from ABDALLHRGX-dev.
 
-2. **Attribution Requirement**
+5. Credit to Original Author
+   - Even though the Android port was fully rewritten, attribution to plooshi is
+     mandatory to recognize the original concept and design.
 
-   * You must credit **both** authors when using this library:
+6. No Trademark Grant
+   - This License does not grant rights to use the project name "Starfall" or any
+     associated trademarks for endorsement or promotion without the prior written
+     consent of the respective trademark owner(s).
+
+7. Liability & Warranty Disclaimer
+   - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+   - IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+     SOFTWARE.
+
+Contact & Permissions:
+----------------------
+For additional permissions, commercial licensing, or any inquiries:
+
+- ABDALLHRGX-dev: https://github.com/ABDALLHRGX-dev
+  - Discord: abdallhgxr
+  - X / Twitter: https://x.com/THEFOUNDATASAS
+
+- plooshi: https://github.com/plooshi
+
+Notes:
+------
+- This is a custom license tailored for "Starfall for Android." If you intend to
+  publish widely or use the project in commercial products, consider contacting the
+  authors to request explicit permission or a separate commercial license.
+- If you would like, I can convert this text to a shorter SPDX-style header for
+  source files, or produce an Arabic translation for display in the repo.
 
      * **plooshi** (original Windows version author)
      * **ABDALLHRGX-dev** (developer of the Android version)
