@@ -1,23 +1,48 @@
-#include "base.h"
-#include <sys/mman.h>
-#include <dlfcn.h>
-#include <android/log.h>
+using System;
+using System.IO;
+using UnrealBuildTool;
 
-namespace Starfall {
-    namespace Globals {
-        void* buf = nullptr;
-        void* EOSBuf = nullptr;
+public class Starfall : ModuleRules
+{
+    public Starfall(ReadOnlyTargetRules Target) : base(Target)
+    {
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-        void* tbuf = nullptr;
-        size_t tsize = 0;
+        bEnableExceptions = true;
+        bUseRTTI = true;
+        
+        PublicIncludePaths.AddRange(
+            new string[] {
+                Path.Combine(ModuleDirectory, "Public")
+            }
+        );
 
-        void* rbuf = nullptr;
-        size_t rsize = 0;
+        PrivateIncludePaths.AddRange(
+            new string[] {
+                Path.Combine(ModuleDirectory, "Private"),
+                ModuleDirectory
+            }
+        );
+        
+        PublicDependencyModuleNames.AddRange(
+            new string[] {
+                "Core",
+                "Engine"
+            }
+        );
 
-        void* EOSTextBuf = nullptr;
-        size_t EOSTextSize = 0;
+        PrivateDependencyModuleNames.AddRange(
+            new string[] {
+                "HTTP"
+            }
+        );
 
-        void* EOSRDataBuf = nullptr;
-        size_t EOSRDataSize = 0;
+        if (Target.Platform == UnrealTargetPlatform.Android)
+        {
+            PublicDefinitions.Add("STARFALL_ANDROID=1");
+
+            PublicSystemLibraries.Add("z");
+            PublicSystemLibraries.Add("dl");
+        }
     }
 }
